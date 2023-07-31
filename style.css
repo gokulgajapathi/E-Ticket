@@ -1,0 +1,51 @@
+
+body{
+    text-align: center;
+    background-image: linear-gradient(to right ,blue,red);
+}
+#form{
+    border: 3px black solid;
+}
+div{
+    background-color:whitesmoke;
+    border: 3px black solid ;
+    width:400px ;
+    height: 400px;
+    border-radius: 10px;
+}
+.placeholder{
+    
+    height: 30px;
+    width:-120px;
+}
+input{
+    margin-top: 5px;
+    border-radius: 5px;
+    
+}
+h3{
+    margin-top: 70px;
+}
+button{
+    height: 30px;
+    width:180px;
+    background-color:navy;
+    border-radius: 20px;
+    color:white;
+}
+p{
+    font-size: large;
+}
+
+
+#fpdiv{
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    margin-top: 100px;
+}
+.woh{
+    height: 250px;margin-top: 200px;
+}
+
+
