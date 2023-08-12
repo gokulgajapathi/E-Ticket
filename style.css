@@ -1,8 +1,10 @@
 
 body{
     text-align: center;
-    background-image: linear-gradient(to right ,blue,red);
+    background-image: linear-gradient(to right ,rgba(0, 0, 205, 0.681),rgba(205, 0, 0, 0.664));
+    
 }
+
 #form{
     border: 3px black solid;
 }
@@ -46,6 +48,14 @@ p{
 }
 .woh{
     height: 250px;margin-top: 200px;
+}
+h1{
+    text-decoration: underline;
+}
+::placeholder{
+    color: navy;
+    padding-left: 5px;
+
 }
 
 

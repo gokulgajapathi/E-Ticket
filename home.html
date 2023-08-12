@@ -11,25 +11,29 @@
             margin: 0px;
         }
     body{
-        background-color: lightcyan;
+        background-color: lightgrey;
     }
-.outer{
 
-  position: relative;
-  
-  background: linear-gradient(to bottom, grey, black);
-}
         .center {
             position: absolute;
-            top: 200px;
-            width: 100%;
-            justify-content: center;
+            top: 80px;
+            margin-left: 40%;
             font-size: 18px;
+            justify-content: center;
+
+
         }
         img { 
+            position: relative;
             width: 100%;
             height: 500px;
-            opacity: 0.3;
+            object-fit:cover;
+            opacity: 95%;
+            filter: blur(2px);
+            
+        }
+        img:hover{
+            filter: none;
         }
 
         i{
@@ -38,13 +42,29 @@
             
         }
         a{
-            border: 2px navy solid;
+            
             padding: 10px;
             margin: 10px;
         }
         #icon{
             margin-top: 50px;
         }
+        #text{
+            color: black;
+        }
+        .icon{
+            height: 80px;
+            width: 80px;
+            border-radius:50px ;
+            opacity: 100%;
+            filter: none;
+        }
+        .icon:hover{
+            border: 3px black solid;
+            height: 95px;
+            width: 95px;
+        }
+        
         
         
         
@@ -54,12 +74,12 @@
 <body>
     <center>
         <div class="outer">
-            <img id="gradient" src="./man1.jpg" alt="Banner-image for E-TICKET" >  
+            <img id="gradient" src="./4K-Travel-Wallpaper-HD-Free-download-768x432.jpg" alt="Banner-image for E-TICKET" >  
         </div>
         <div class="center">
-            <div id="text" style="color: #f0f0f0;">
+            <div id="text" >
                 <h1>E-TICKET</h1>
-       <h2>Welcome to our ticket booking service! whether you're planning a thrilling adventure, a relaxing vacation, or attending a special event, we are here to make your travel and ticket booking experience seamless and enjoyable.</h2>
+       <h2>Welcome to our ticket booking service! whether you're planning a thrilling adventure, a relaxing vacation, we are here to make your travel and ticket booking experience seamless and enjoyable.</h2>
             </div>
     
         </div> 
@@ -67,9 +87,9 @@
 
 
         <div id="icon" >
-                <a href="./bus.html"><i class="fa-solid fa-bus fa-2xl" style="color: #000080;"></i></a>
-                <a href="./train.html"><i class="fa-solid fa-train fa-2xl" style="color: #000080;"></i></a>
-                <a href="./flight.html"><i class="fa-solid fa-jet-fighter-up fa-2xl" style="color: #000080;"></i></a>
+                <a href="./bus.html"><img class="icon" id="bus" src="./driving-bus.jpg" alt="Bus"></a>
+                <a href="./train.html"><img class="icon"  id="train" src="./train.jpg" alt="Train"></a>
+                <a href="./flight.html"><img class="icon" id="flight" src="./flight.jpg" alt="Flight"></a>
         </div> 
 
         
